@@ -21,6 +21,5 @@ with open(my_mgmap["title"]+".json", 'w') as json_file:
 
 
 TODO:
-* Provide support for "version 1" maps.
 * Add an installer script, so that it can be installed to python as a library.
 * Add tests (maybe ;-) ).
