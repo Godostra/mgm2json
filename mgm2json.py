@@ -231,7 +231,7 @@ if __name__ == '__main__':
 				i = 0
 				for y in range(jmap['height']):
 					for x in range(jmap['width']):
-						cell = int(jmap['heightMap'][i][0])
+						cell = int(jmap['heightMap'][i])
 						for c in range(cell):
 							background.paste(height, (x*TILE_SIZE, y*TILE_SIZE), mask=height)
 						i += 1
